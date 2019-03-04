@@ -1,28 +1,78 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: https://mattborghi.github.io/" lang="en-US">
 <html>
   <head>
   	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  	<!-- Load css files -->
   	<link href="styles/style.css" rel="stylesheet" type="text/css">
+  	<link href="styles/body-style.css" rel="stylesheet" type="text/css">
+  	<link href="styles/font-size.css" rel="stylesheet" type="text/css">
+  	<link href="styles/navigation-bar.css" rel="stylesheet" type="text/css">
+    
     <meta charset="utf-8">
+    <meta name="author" content="Matias Borghi">
+	<meta name="description" content="Just trying to learn some web development skills.">
+	<meta property="og:image" content="images/creatr.png">
+	<meta property="og:title" content="Matias Borghi's webpage">
     <title>My test page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-  	<h1>My main title</h1>
-    <img id="image1" src="images/Monte_480x480.jpg" alt="My test image" width="400px">
-    <p id="paragraph_1">We are <strong>just</strong> writing a paragraph</p>
-    <p>Now, we want to use an unordered list</p>
-	<ul> 
-	  <li><a href="https://github.com/mattborghi">My Github page</a></li>
-	  <li><a href="https://borghimatias.wixsite.com/home">My personal webpage</a></li>
+  	<header>
+      <h1>Header</h1>
+    </header>
+
+	<ul id="navigation_bar">
+  		<li id="item_nav_bar"><a id="hiper_nav_bar" class="active"> Home</a></li>
+  		<li id="item_nav_bar"><a id="hiper_nav_bar" href="pictures.html">Pictures</a></li>
+  		<li id="item_nav_bar"><a id="hiper_nav_bar" href="projects.html">Projects</a></li>
+  		<li id="item_nav_bar"><a id="hiper_nav_bar" href="social.html">Social</a></li>
+  		<li id="item_nav_bar"><a id="hiper_nav_bar" href="new_zealand.html">New Zealand</a></li>
 	</ul>
 
-	<p>working together ... Whereas an ordered list is as follows </p>
-	<ol>
-		<li>first do this</li>
-		<li>then do this</li>
-		<li>and finish with this</li>
-	</ol>
-	<button>Change user</button>
+     <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+
+       <form>
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+
+  	<main>
+
+	  	<h1>My main title</h1>
+	    <img id="image1" src="images/Monte_480x480.jpg" alt="My test image" width="400">
+	    <p id="paragraph_1">We are <strong>just</strong> writing a paragraph</p>
+	    
+	    <article>
+	    	<p>Now, we want to use an unordered list</p>
+			<ul> 
+			  <li><a href="https://github.com/mattborghi">My Github page</a></li>
+			  <li><a href="https://borghimatias.wixsite.com/home">My personal webpage</a></li>
+			</ul>
+			<br>		
+	    </article>
+	    <aside>
+	    	<p>working together ... Whereas an ordered list is as follows </p>
+			<ol>
+				<li>first do this</li>
+				<li>then do this</li>
+				<li>and finish with this</li>
+			</ol>
+			<button>Change user</button>	
+	    </aside>
+	    
+	</main>
+	<br><hr>
+	<footer>
+		<p>Contact the author of this page:</p>
+
+		<address>
+		  <a href="mailto:borghi.matias@gmail.com">borghi.matias@gmail.com</a><br/>
+		  <a href="tel:+54 9 11-2157-6504">+54 9 11-2157-6504</a><br/>
+		</address>
+
+    </footer>
+
+	
 	<!-- Scripts -->
 	<script src="scripts/main.js"></script>
   </body>
