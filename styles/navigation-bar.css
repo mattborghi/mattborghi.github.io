@@ -1,0 +1,31 @@
+/* Navigation bar */
+#navigation_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#item_nav_bar {
+  float: left;
+}
+
+#item_nav_bar #hiper_nav_bar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#item_nav_bar #hiper_nav_bar:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}

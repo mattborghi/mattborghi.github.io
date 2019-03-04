@@ -3,52 +3,28 @@
   color: red;
 }
 */
+
 /* just add a border to the image when we hover it */
 img[src]:hover {
 	border: 1px solid black;
 }
-/* Set fonts */
-html {
-	/* px means 'pixels': the base font size is now 10 pixels high  */
-  font-size: 10px; 
-  /* this should be the rest of the output you got from Google fonts */
-  font-family: 'Roboto', sans-serif;
-}
-h1 {
-  font-size: 60px;
-  text-align: center;
-  color: #e17055;
-}
-p, li {
-  font-size: 16px;    
-  line-height: 2;
-  letter-spacing: 1px;
-}
-/* Backgroud colors */
-html {
-	background-color: #55efc4;
-}
-/* positioning and styling of body */
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #ffeaa7;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
-/* positioning and styling of headers */
-h1 {
-	/* overwrite the default value that it is not zero */
-  margin: 0;
-  padding: 20px 0;    
-  text-shadow: 3px 3px 1px #2d3436;
-}
+
 /* change color to h1 when hover */
 h1:hover {
 	color: #0984e3;
 }
-/* Centering the image */
+
+/* centering the image */
 img {
   display: block;
   margin: 0 auto;
+}
+
+/* Contact information */
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
 }
