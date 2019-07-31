@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{189:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n);t.default=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement("div",null,"Hello world!"),r.a.createElement("p",null,"Repo hosted"," ",r.a.createElement("a",{href:"https://github.com/mattborghi/website-source"},"here")," and seen"," ",r.a.createElement("a",{href:"https://mattborghi.github.io/"},"here")," "))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-5cb1fa580eab5320d56a.js.map
