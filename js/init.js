@@ -12,6 +12,10 @@
 
     setTimeout(function() {
 	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
+    }, 100);
+    
+    setTimeout(function() {
+	   $('h2.responsive-headline').fitText(1, { minFontSize: '20px', maxFontSize: '50px' });
 	 }, 100);
 
 
